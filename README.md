@@ -4,15 +4,17 @@ This library helps you to make HTTP requests.
 It uses Retrofit 2 with OkHttp3 as client to establish the connection and RxAndroid/Java to handle asynchronous operations.
 Data will emitt with LiveData by Callbacks.
 
-Responses from servers will be hanlded by BaseResponse object.
+Responses from servers will be handled by BaseResponse object.
 That object contains:
 - Body > Body of the response;
 - Code > Code of the response;
 - ErrorBody > In case of error, it will be saved in ErrorBody.
+Errors will be handled by BaseResponseError.
 
 This library will help you to integrate, more easily, a MVVM architectural pattern by giving you:
 - BaseRepository > Most commons Repository functions. 
 - BaseViewModel > Most commons ViewModel functions.
+- BaseView > Most commons View functions.
 
 
 All the library has been writte in Kotlin, I like it more.
@@ -38,7 +40,7 @@ Gradle ->
   Step 2. Add the dependency
   
     dependencies {
-              implementation 'com.github.giovanniandreuzza:clientservicemanager:0.1.0'
+              implementation 'com.github.giovanniandreuzza:clientservicemanager:1.0.0'
       }
      
  
