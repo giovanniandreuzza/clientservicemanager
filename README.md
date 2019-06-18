@@ -17,7 +17,7 @@ This library will help you to integrate, more easily, a MVVM architectural patte
 - BaseView > Most commons View functions.
 
 
-All the library has been writte in Kotlin, I like it more.
+All the library has been written in Kotlin, I like it more.
 
 
 # How to 
